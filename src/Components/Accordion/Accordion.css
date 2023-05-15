@@ -1,0 +1,50 @@
+.AccordionH {
+    background-color: navajowhite !important;
+    cursor: pointer;
+}
+
+.AccordionH:hover{
+    background-color: rgb(250, 207, 148) !important;
+}
+
+i {
+    font-size: 1.2rem;
+    padding-left: 7px;
+}
+
+.p-inactive{
+    transform: translateY(-10rem);
+}
+
+p {
+    transform: translateY(0rem);
+    transition: all 300ms;
+    transform-origin: left top;
+}
+
+div {
+    transition: all 300ms;
+}
+
+.pCntr{
+    max-height: 0;
+    overflow: hidden;
+}
+
+@media (min-width: 900px) {
+    .pCntrActive{
+        max-height: 5rem;
+    }
+}
+
+@media (max-width: 899px) and (min-width:500px) {
+    .pCntrActive{
+        max-height: 10rem;
+    }
+}
+
+@media (max-width: 499px) {
+    .pCntrActive{
+        max-height: 30rem;
+    }
+}

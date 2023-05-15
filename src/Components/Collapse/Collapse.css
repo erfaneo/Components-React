@@ -1,0 +1,23 @@
+.collapseCntr{
+    max-height: 0;
+    overflow: hidden;
+}
+
+
+@media (min-width: 900px) {
+    .collapseCntrActive{
+        max-height: 10rem;
+    }
+}
+
+@media (max-width: 899px) and (min-width:500px) {
+    .collapseCntrActive{
+        max-height: 20rem;
+    }
+}
+
+@media (max-width: 499px) {
+    .collapseCntrActive{
+        max-height: 30rem;
+    }
+}
